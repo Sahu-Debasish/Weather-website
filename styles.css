@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-image: linear-gradient(to bottom, #0088FF, #0055AA);
+    animation: changeBackground 10s infinite alternate;
+}
+
+@keyframes changeBackground {
+    0% {
+        background-image: linear-gradient(to bottom, #0088FF, #0055AA);
+    }
+    100% {
+        background-image: linear-gradient(to bottom, #FF8800, #AA5500);
+    }
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    margin-top: 0;
+}
+
+.search {
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.weather {
+    text-align: center;
+}
+
+img {
+    max-width: 100px;
+}
